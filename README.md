@@ -1,35 +1,22 @@
-<<<<<<< HEAD
-# My Portfolio Website
+# Michael Thomas - Web Developer Portfolio
 
 ## Description
-This portfolio showcases my projects and skills as a web developer. It includes sections for my work, contact information, and links to my social media profiles.
+Welcome to my portfolio! This is where I showcase my projects, skills, and journey as a web developer. You’ll find details about my work, my projects, and how to get in touch with me.
+
+## Live Portfolio
+You can view my live portfolio website here:  
+[https://monteblanco503.github.io/](https://monteblanco503.github.io/)  
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages (for deployment)
+- Responsive Design
 
 ## Installation Instructions
-1. Clone the repository: 
+To view this portfolio locally:
 
-2. Navigate to the project directory: 
-
-3. Open `index.html` in your browser.
-
-## Usage
-- Visit the homepage to see an overview of my work.
-- Navigate to the "Projects" page to view individual projects.
-- Use the "Contact" page to reach out for collaborations or inquiries.
-
-## Features
-- Responsive design for mobile and desktop devices
-- Easy navigation between pages
-- Links to social media profiles
-
-## Contributing
-Feel free to submit pull requests or open issues for improvements or suggestions.
-
-## License
-This project is licensed under the MIT License.
-
-## Contact
-Email: [michaelthomas.pdx@gmail.com](mailto:michaelthomas.pdx@gmail.com)
-=======
-# michaelthomas.github.io
-Web Developer Portfolio 
->>>>>>> 7743356838aa3bdba072b55ac082422ee4c4bcab
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Monteblanco503/michaelthomas.github.io.git
