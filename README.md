@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Portfolio Website
 
 ## Description
@@ -28,3 +29,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 Email: [michaelthomas.pdx@gmail.com](mailto:michaelthomas.pdx@gmail.com)
+=======
+# michaelthomas.github.io
+Web Developer Portfolio 
+>>>>>>> 7743356838aa3bdba072b55ac082422ee4c4bcab
