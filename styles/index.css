@@ -1,0 +1,41 @@
+/* Apply background to entire main content */
+main {
+    background-image: url('/assets/images/Mountain background.jpg'); /* Adjust this path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh; /* Ensure it covers full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 50px; /* Adjust margin to control space between sections */
+}
+
+.hero-content h1 {
+    font-size: 4rem; /* Adjust size as needed */
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-content h2 {
+    font-size: 2rem; /* Adjust size as needed */
+    margin: 10px 0;
+}
+
+/* About Me Section */
+.about {
+    text-align: center;
+    font-size: 1.5rem; /* Larger text */
+    max-width: 800px; /* Limit width for readability */
+    margin: 25% auto 0; /* Add top margin to push it down */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add transparency for readability */
+    border-radius: 10px; /* Optional: Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}

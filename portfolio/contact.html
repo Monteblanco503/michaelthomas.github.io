@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="/styles/contact.css"> 
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+
+<!-- Header Section -->
+<header id="header"></header>
+
+<div class="container">
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3>Send Your Request</h3>
+            <form id="contactForm">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" placeholder="Phone Number" required>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                </div>
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button class="button-about" type="submit">SEND</button>   
+            </form>
+        </div>
+        
+        <div class="contact-right">
+            <h3>Contact Us</h3>
+            <div class="contact-image">
+                <img src="/assets/images/Michael Henry Pumpkins 2024.jpg" alt="Contact Us" style="width: 100%; height: auto;">
+            </div>
+            <table>
+                <tr>
+                    <td>Email:</td>
+                    <td>Michaelthomas.pdx@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>(503) 750-8996</td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>5911 SE Sundial Ct.<br>Portland, Oregon 97222</td>
+                </tr>
+                <tr>
+                    <td>Office Hours:</td>
+                    <td>Mon-Fri: 6am - 5pm<br>
+                        <br>Sat - Sun: Closed</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer id="footer"></footer>
+
+<!-- Load Content Script -->
+<script src="/scripts/loadContent.js"></script> 
+<script src="/scripts/contactForm.js"></script>
+<script src="/scripts/newsletterSignup.js"></script>
+</body>
+</html>

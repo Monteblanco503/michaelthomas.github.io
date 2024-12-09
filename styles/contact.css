@@ -1,0 +1,106 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in element's total width and height */
+}
+
+/* Body styling */
+body {
+    background: #f5f5f5; /* Light gray background for the body */
+    font-family: Arial, sans-serif; /* Font family for the page */
+    color: #010007; /* Text color for the page */
+    font-size: 16px; /* Base font size */
+}
+
+/* Container for the contact form */
+.container {
+    width: 80%;
+    margin: 50px auto; /* Center container */
+}
+
+/* Contact box layout */
+.contact-box {
+    background: #e8e8e8; /* Smoke gray background for the contact box */
+    display: flex; /* Flexbox for layout */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Left section for the contact form */
+.contact-left {
+    flex-basis: 60%; /* Occupy 60% of the width */
+    padding: 40px 60px; /* Padding around the form */
+}
+
+/* Right section for contact information */
+.contact-right {
+    flex-basis: 40%; /* Occupy 40% of the width */
+    padding: 40px;
+    background: #d4d4d4; /* Light gray background for contact info */
+}
+
+/* Heading styles */
+h3 {
+    margin-bottom: 20px; /* Space below headings */
+}
+
+/* Input row styling */
+.input-row {
+    display: flex; /* Flexbox for input rows */
+    justify-content: space-between; /* Space between input groups */
+    margin-bottom: 20px; /* Space below input rows */
+}
+
+/* Input group styling */
+.input-row .input-group {
+    flex-basis: 45%; /* Occupy 45% of the row's width */
+}
+
+/* Input and textarea styles */
+input,
+textarea {
+    width: 100%; /* Full width of parent */
+    border: none; /* No border */
+    border-bottom: 1px solid #ccc; /* Bottom border */
+    outline: none; /* No outline on focus */
+    padding-bottom: 5px; /* Padding for input */
+}
+
+/* Textarea specific styles */
+textarea {
+    border: 1px solid #ccc; /* Solid border */
+    padding: 10px; /* Padding for textarea */
+}
+
+/* Label styling */
+label {
+    margin-bottom: 6px; /* Space below labels */
+    display: block; /* Block level for labels */
+}
+
+/* Button styling */
+.button-about {
+    background: #727272; /* Button background */
+    color: white; /* Text color */
+    width: 100px; /* Fixed button width */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    height: 35px; /* Fixed button height */
+    border-radius: 30px; /* Rounded corners */
+    margin-top: 20px; /* Space above button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Full width of parent */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above table */
+}
+
+tr td {
+    padding: 10px; /* Space within table cells */
+}
+
+/* Specific styles for the footer can be kept in footer.css */

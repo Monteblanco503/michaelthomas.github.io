@@ -1,0 +1,58 @@
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the footer */
+}
+
+.footer-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out sections */
+    align-items: flex-start; /* Align items to the top */
+}
+
+footer h5 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2rem; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    text-decoration: underline; /* Underline the text */
+    margin-bottom: 10px; /* Add space below the header */
+}
+
+.footer-section {
+    flex: 1; /* Allow each section to take equal space */
+    text-align: left; /* Align text to the left */
+}
+
+footer ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+}
+
+footer ul li {
+    margin: 10px 0; /* Space between list items */
+}
+
+footer a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+.social-icons {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: flex-start; /* Align icons to the left */
+    gap: 10px; /* Space between icons */
+    margin-top: 10px; /* Add space above icons */
+}
+
+.social-icons a {
+    padding: 10px; /* Add padding for clickable area */
+    border-radius: 5px; /* Optional: Round the corners */
+    transition: background 0.3s; /* Smooth transition for background */
+}
+
+.social-icons a:hover {
+    opacity: 0.8; /* Slightly change opacity on hover for feedback */
+}

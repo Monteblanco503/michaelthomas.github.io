@@ -1,0 +1,13 @@
+{
+  "name": "michaelthomas-portfolio",
+  "version": "1.0.0",
+  "description": "This portfolio showcases my projects and skills as a web developer. It includes sections for my work, contact information, and links to my social media profiles.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

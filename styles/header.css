@@ -1,0 +1,58 @@
+header {
+    background-color: #444; /* Darker background for the header */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center text alignment */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2em; /* Increase font size for the header */
+}
+
+header nav {
+    margin-top: 10px; /* Space between title and navigation */
+}
+
+header ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+}
+
+header ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 15px; /* Space between menu items */
+}
+
+header a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+header a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+.header-signup {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+.header-signup input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.header-signup button {
+    padding: 5px 10px;
+    background-color: #1a9b92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-signup button:hover {
+    background-color: #06f6f6;
+}
